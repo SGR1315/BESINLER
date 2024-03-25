@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Besin Sınıflandırma</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="kutular">
+    <h2>Sağlıklı Besinler</h2>
+    <div id="healthy" class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    <h2>Sağlıksız Besinler</h2>
+    <div id="junk" class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+<div id="options" class="box no-scroll" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img id="apple" src="images/ELMA.jpg" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="banana" src="images/MUZ.jpg" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="orange" src="images/PORTAKAL.jpg" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="carrot" src="images/HAVUC.jpg" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="burger" src="images/HAMBURGER.jpg" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="pizza" src="images/PİZZA.webp" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="fries" src="images/PATATESKIZARTMASI.png" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+    <img id="donut" src="images/DONUT.jpg" class="option" draggable="true" ondragstart="drag(event)" width="100" height="100">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
